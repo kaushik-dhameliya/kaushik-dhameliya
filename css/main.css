@@ -450,6 +450,10 @@ input[type="submit"]:focus {
   color: #04b4e0;
 }
 
+.pr-left {
+  bottom: 75px;
+}
+
 .header-img {
   position: relative;
   width: 180px;
@@ -3028,13 +3032,18 @@ blockquote {
   .prarmbh-arrows-nav {
     background-color: rgba(255, 255, 255, 0.6);
     width: 48px;
-    right: 10px;
     bottom: 10px;
     padding: 5px 0;
-    border: 2px solid #04b4e0;
+    border: 1px solid #04b4e0;
   }
   .prarmbh-arrows-nav div {
     font-size: 24px;
+  }
+  .pr-left {
+    left: 10px;
+  }
+  .pr-right {
+    right: 10px;
   }
   .lm-animated-bg {
     display: none;
